@@ -1,0 +1,33 @@
+header{
+  background-color: crimson;
+  padding: 30px 15px;
+  
+}
+.form-section{
+  margin: 2rem auto; 
+  width: 60%;
+  padding: 1rem;
+  background-color: #e8ebed;
+}
+label,input, button{
+  width: 100%;
+  padding: 1rem 1rem;
+}
+fieldset{
+  padding: 1rem
+}
+#fullname{
+  text-transform: uppercase;
+}
+#submit{
+  cursor: pointer;
+  background: tomato;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+label{
+  width: 85%;
+  display: block;
+}
+
