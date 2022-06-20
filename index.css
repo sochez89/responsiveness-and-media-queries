@@ -1,33 +1,101 @@
-header{
-  background-color: crimson;
-  padding: 30px 15px;
-  
+*{
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("./images/bg-intro-desktop.png")
 }
-.form-section{
-  margin: 2rem auto; 
-  width: 60%;
-  padding: 1rem;
-  background-color: #e8ebed;
+body{
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400, 500, 600, 700;
 }
-label,input, button{
-  width: 100%;
-  padding: 1rem 1rem;
-}
-fieldset{
-  padding: 1rem
-}
-#fullname{
-  text-transform: uppercase;
-}
-#submit{
-  cursor: pointer;
-  background: tomato;
+.main-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
   color: white;
-  border: none;
-  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 50px 100px 50px 100px;
+  margin-top: 100px;
+  margin-right: 100px;
 }
-label{
-  width: 85%;
-  display: block;
+
+.blue-area{
+  background-color:  hsl(248, 32%, 49%);
+  text-align: center;
+  padding-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-bottom: 10px;
+  width: 100%; 
+  color: white;
 }
+
+.button-area{
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 10px;
+  /* font-size: 10px; */
+ padding: 10px;
+ /* color: white; */
+ /* margin-right: 0.5rem; */
+ /* border-radius: 10px; */
+}
+
+.form{
+  width: 100%;
+  background-color: white;
+  padding:0.5rem  ;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* border-spacing: 10px; */
+  border-radius: 10px;
+}
+
+.first-part{
+  align-items: center;
+  flex: 1;
+  margin: 10px; 
+}
+.second-part{
+  flex: 1;
+}
+.field-area{
+  background-color:white;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:1440px ) {
+  body{
+    background-image: url("./images/bg-intro-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    flex-direction: column;  
+  } 
+}
+@media screen and (max-width:375px ) {
+  body{
+    background-image: url("./images/bg-intro-mobile.png");
+  }
+
+  .main-area{
+    flex-direction: column;
+  } 
+}
+
+ 
+  
+
+
+
 
